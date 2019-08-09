@@ -52,6 +52,9 @@ h2 {
 }
 
 @media only screen and (max-width: 400px) {
+  *{
+    background-color: LightYellow;
+  }
   p {
     font-family: 'Abel', sans-serif;
     font-size: 10px;
