@@ -1,10 +1,52 @@
-.footer{
-  padding: 10px;
-  margin:10px;
+/* font-family: 'Forum', cursive;
+font-family: 'Reem Kufi', sans-serif;
+font-family: 'Abel', sans-serif; */
+
+*{
+  background-color: LightYellow;
 }
+
+p {
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+}
+
+h2 {
+  font-family: 'Abel', sans-serif;
+  font-size: 30px;
+}
+
+.title{
+  font-family: 'Abel', sans-serif;
+  font-size: 80px;
+}
+.subtitle{
+  font-family: 'Abel', sans-serif;
+  font-size: 50px;
+}
+
+.projtitle{
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 60px;
+}
+
 .entrybox{
   margin: 40px auto;
   padding: 40px 40px;
   border: 2px solid rgba(65,105,225,0.2);
 
+}
+
+.footer{
+  background-color: darkgrey;
+  padding: 10px;
+  margin:10px;
+}
+.footercontent{
+  background-color: darkgrey;
+  color: mintcream;
+}
+.linkedin{
+  background-color: darkgrey;
+  /* color: navy; */
 }
