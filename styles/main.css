@@ -50,3 +50,29 @@ h2 {
   background-color: darkgrey;
   /* color: navy; */
 }
+
+@media only screen and (max-width: 400px) {
+  p {
+    font-family: 'Abel', sans-serif;
+    font-size: 10px;
+  }
+
+  h2 {
+    font-family: 'Abel', sans-serif;
+    font-size: 15px;
+  }
+
+  .title{
+    font-family: 'Abel', sans-serif;
+    font-size: 40px;
+  }
+  .subtitle{
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+  }
+
+  .projtitle{
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 30px;
+  }
+}
