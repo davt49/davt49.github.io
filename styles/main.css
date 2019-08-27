@@ -80,6 +80,12 @@ h2 {
     font-size: 25px;
   }
 
+  .skill-icons{
+    height: 30px;
+    width: 30px;
+    margin: 0 10px;
+  }
+
   .projtitle{
     font-family: 'Reem Kufi', sans-serif;
     font-size: 30px;
