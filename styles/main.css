@@ -130,8 +130,7 @@ small {
   }
 
   small {
-    font-family: 'Abel', sans-serif;
-    font-size: 1rem;
+    display: none;
   }
 
   .profpic{
