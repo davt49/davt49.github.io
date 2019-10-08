@@ -2,27 +2,83 @@
 font-family: 'Reem Kufi', sans-serif;
 font-family: 'Abel', sans-serif; */
 
-*{
-  background-color: LightYellow;
-}
-
 p {
   font-family: 'Abel', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
+}
+
+h1{
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 50px;
 }
 
 h2 {
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 20px;
+}
+
+h3 {
   font-family: 'Abel', sans-serif;
-  font-size: 30px;
+  font-size: 18px;
+}
+
+.hero{
+  border: 15px solid rgba(65,105,225);
+}
+
+.hero-one{
+  background-image: url(../resources/norwayhouse.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-two{
+  display: flex;
+  background-color: LightYellow;
+}
+
+.hero-three{
+  background-color: LightYellow;
+}
+
+.hero-four{
+  background-image: url(../resources/Iceland.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.techlist{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 30px;
+}
+
+.devicon {
+  Font-size: 3rem;
+  padding-bottom: 5px;
+  display: flex;
+}
+
+small {
+  font-family: 'Abel', sans-serif;
+  font-size: 1rem;
+}
+
+.profpic{
+  height: 200px;
+  width: auto;
+  border-radius: 20px;
 }
 
 .title{
   font-family: 'Abel', sans-serif;
   font-size: 80px;
+  color: LightYellow;
 }
 .subtitle{
   font-family: 'Abel', sans-serif;
   font-size: 50px;
+  color: LightYellow;
 }
 
 .projtitle{
@@ -30,38 +86,14 @@ h2 {
   font-size: 60px;
 }
 
-.entrybox{
-  margin: 40px auto;
-  padding: 40px 40px;
-  border: 2px solid rgba(65,105,225,0.2);
-
-}
-
-.skill-icons{
-  height: 90px;
-  width: 90px;
-  margin: 0 40px;
-}
-
-.footer{
-  background-color: darkgrey;
-  padding: 10px;
-  margin:10px;
-}
-.footercontent{
-  background-color: darkgrey;
-  color: mintcream;
-}
-.linkedin{
-  background-color: darkgrey;
-  /* color: navy; */
+.info{
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
 }
 
 @media only screen and (max-width: 400px) {
-  *{
-    background-color: LightYellow;
-  }
-  p {
+
+  /* p {
     font-family: 'Abel', sans-serif;
     font-size: 10px;
   }
@@ -80,19 +112,11 @@ h2 {
     font-size: 25px;
   }
 
-  .skill-icons{
-    height: 30px;
-    width: 30px;
-    margin: 0 10px;
-  }
+
 
   .projtitle{
     font-family: 'Reem Kufi', sans-serif;
     font-size: 30px;
-  }
-  .entrybox{
-    margin: 20px auto;
-    padding: 20px 1px;
-    /* border-top: 2px solid rgba(65,105,225,0.2); */
-  }
+  } */
+
 }
