@@ -93,50 +93,24 @@ small {
 
 @media only screen and (max-width: 400px) {
 
-  /* p {
-    font-family: 'Abel', sans-serif;
-    font-size: 10px;
-  }
-
-  h2 {
-    font-family: 'Abel', sans-serif;
-    font-size: 15px;
-  }
-
-  .title{
-    font-family: 'Abel', sans-serif;
-    font-size: 40px;
-  }
-  .subtitle{
-    font-family: 'Abel', sans-serif;
-    font-size: 25px;
-  }
-
-
-
-  .projtitle{
-    font-family: 'Reem Kufi', sans-serif;
-    font-size: 30px;
-  } */
-
   p {
     font-family: 'Abel', sans-serif;
-    font-size: 8px;
+    font-size: 12px;
   }
 
   h1{
     font-family: 'Reem Kufi', sans-serif;
-    font-size: 25px;
+    font-size: 35px;
   }
 
   h2 {
     font-family: 'Reem Kufi', sans-serif;
-    font-size: 10px;
+    font-size: 20px;
   }
 
   h3 {
     font-family: 'Abel', sans-serif;
-    font-size: 9px;
+    font-size: 18px;
   }
 
   .hero{
@@ -150,7 +124,7 @@ small {
   }
 
   .devicon {
-    Font-size: 3rem;
+    Font-size: 1rem;
     padding-bottom: 5px;
     display: flex;
   }
@@ -182,7 +156,7 @@ small {
     font-size: 30px;
   }
 
-  .info{
+  .infosection{
     visibility: hidden;
     font-family: 'Abel', sans-serif;
     font-size: 10px;
