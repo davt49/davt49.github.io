@@ -95,6 +95,10 @@ small {
   font-size: 20px;
 }
 
+.linkedinpic{
+  display: none;
+}
+
 @media only screen and (max-width: 400px) {
 
   p {
@@ -161,6 +165,10 @@ small {
   }
 
   .infosection{
+    display: none;
+  }
+
+  .linkedinpic{
     display: none;
   }
 
