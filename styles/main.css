@@ -126,7 +126,7 @@ small {
   .devicon {
     Font-size: 2rem;
     padding-bottom: 5px;
-    /* display: flex; */
+    display: flex;
   }
 
   small {
@@ -158,8 +158,6 @@ small {
 
   .infosection{
     display: none;
-    font-family: 'Abel', sans-serif;
-    font-size: 10px;
   }
 
 }
