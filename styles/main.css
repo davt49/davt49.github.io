@@ -119,4 +119,73 @@ small {
     font-size: 30px;
   } */
 
+  p {
+    font-family: 'Abel', sans-serif;
+    font-size: 8px;
+  }
+
+  h1{
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 25px;
+  }
+
+  h2 {
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 10px;
+  }
+
+  h3 {
+    font-family: 'Abel', sans-serif;
+    font-size: 9px;
+  }
+
+  .hero{
+    border: 15px solid rgba(65,105,225);
+  }
+
+  .techlist{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+  }
+
+  .devicon {
+    Font-size: 3rem;
+    padding-bottom: 5px;
+    display: flex;
+  }
+
+  small {
+    font-family: 'Abel', sans-serif;
+    font-size: 1rem;
+  }
+
+  .profpic{
+    height: 100px;
+    width: auto;
+    border-radius: 20px;
+  }
+
+  .title{
+    font-family: 'Abel', sans-serif;
+    font-size: 40px;
+    color: LightYellow;
+  }
+  .subtitle{
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+    color: LightYellow;
+  }
+
+  .projtitle{
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 30px;
+  }
+
+  .info{
+    visibility: hidden;
+    font-family: 'Abel', sans-serif;
+    font-size: 10px;
+  }
+
 }
