@@ -102,11 +102,6 @@ small {
 .shape{
   height:5px;
   width:1000px;
-  /* border-radius: 50%; */
-  /* background-image: url('https://media2.giphy.com/media/9nuXRx5EfGsKc/giphy.gif'); */
-  /* background-image: url('https://neckbeard.xyz/emoji/blobs.gg/ablobthinkingeyes.png'); */
-  /* background-image: url('https://threejsfundamentals.org/threejs/resources/images/tree-02.png');
-  background-size: 30px; */
   background-color: grey;
   position: relative;
   margin-left: -75%;
@@ -115,11 +110,6 @@ small {
 .shape2{
   height:5px;
   width:1000px;
-  /* border-radius: 50%; */
-  /* background-image: url('https://media2.giphy.com/media/9nuXRx5EfGsKc/giphy.gif'); */
-  /* background-image: url('https://neckbeard.xyz/emoji/blobs.gg/ablobthinkingeyes.png'); */
-  /* background-image: url('https://emojiler.com/json/images/yerler-ve-seyehat/karla-kaplayan-dag-zirvesi.png');
-  background-size: 30px; */
   background-color: gold;
   position: relative;
   margin-left: 100%;
@@ -127,11 +117,6 @@ small {
 .shape3{
   height:5px;
   width:1000px;
-  /* border-radius: 50%; */
-  /* background-image: url('https://media2.giphy.com/media/9nuXRx5EfGsKc/giphy.gif'); */
-  /* background-image: url('https://neckbeard.xyz/emoji/blobs.gg/ablobthinkingeyes.png'); */
-  /* background-image: url('https://threejsfundamentals.org/threejs/resources/images/tree-02.png');
-  background-size: 30px; */
   background-color: grey;
   position: relative;
   margin-left: -75%;
@@ -140,11 +125,6 @@ small {
 .shape4{
   height:5px;
   width:1000px;
-  /* border-radius: 50%; */
-  /* background-image: url('https://media2.giphy.com/media/9nuXRx5EfGsKc/giphy.gif'); */
-  /* background-image: url('https://neckbeard.xyz/emoji/blobs.gg/ablobthinkingeyes.png'); */
-  /* background-image: url('https://threejsfundamentals.org/threejs/resources/images/tree-02.png');
-  background-size: 30px; */
   background-color: gold;
   position: relative;
   margin-left: 100%;
