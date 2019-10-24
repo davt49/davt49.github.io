@@ -204,4 +204,8 @@ small {
     display: none;
   }
 
+  .shape, .shape2, .shape3, .shape4{
+    display: none;
+  }
+  
 }
