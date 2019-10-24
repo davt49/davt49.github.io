@@ -6,6 +6,8 @@ a:hover {
   color: DarkTurquoise ;
 }
 
+
+
 p {
   font-family: 'Abel', sans-serif;
   font-size: 16px;
@@ -100,7 +102,7 @@ small {
 }
 
 .shape{
-  height:5px;
+  height:2px;
   width:1000px;
   background-color: grey;
   position: relative;
@@ -108,26 +110,48 @@ small {
   margin-bottom: 50px;
 }
 .shape2{
-  height:5px;
+  height:2px;
   width:1000px;
   background-color: gold;
   position: relative;
   margin-left: 100%;
+  margin-top: 50px;
 }
 .shape3{
-  height:5px;
+  height:2px;
   width:1000px;
-  background-color: grey;
+  background-color: navy;
   position: relative;
   margin-left: -75%;
   margin-bottom: 50px;
 }
 .shape4{
-  height:5px;
+  height:2px;
   width:1000px;
-  background-color: gold;
+  background-color: crimson;
   position: relative;
   margin-left: 100%;
+  margin-bottom: 50px;
+}
+.shape5{
+  height:500px;
+  width:2px;
+  background-color: forestgreen;
+  position: relative;
+  margin-top: -90%;
+  padding: 0px;
+  z-index: 0;
+  margin-left: 0.1px;
+}
+.shape6{
+  height:500px;
+  width:2px;
+  background-color: indigo;
+  position: relative;
+  margin-bottom: -90%;
+  padding: 0px;
+  z-index: 0;
+  margin-left: 0.1px;
 }
 
 
@@ -204,8 +228,8 @@ small {
     display: none;
   }
 
-  .shape, .shape2, .shape3, .shape4{
+  .shape, .shape2, .shape3, .shape4, .shape5, .shape6 {
     display: none;
   }
-  
+
 }

@@ -34,4 +34,20 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   setInterval(move4, 60)
 
+  const shape5 = document.querySelector('.shape5')
+  let shape5y = 0
+  function move5(){
+    shape5y ++
+    shape5.style.top = shape5y + 'px'
+  }
+  setInterval(move5, 60)
+
+  const shape6 = document.querySelector('.shape6')
+  let shape6y = 0
+  function move6(){
+    shape6y --
+    shape6.style.top = shape6y + 'px'
+  }
+  setInterval(move6, 60)
+
 })
