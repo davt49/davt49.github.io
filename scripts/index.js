@@ -4,70 +4,34 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const shape = document.querySelector('.shape')
   let shapex = 0
-  // let shapey = 0
-
-
-  function whichmove(){
-    const ShapeAnimation = ['Right','Right','Right','Right', 'Left', 'Up', 'Down']
-    const which = ShapeAnimation[Math.floor(Math.random() * ShapeAnimation.length)]
-    // console.log('a at ', shapex)
-
-
-    switch (which){
-      case 'Right':
-        shapex ++
-        shape.style.left = shapex + 'px'
-        break
-      // case 'Left':
-      //   shapex --
-      //   shape.style.left = shapex + 'px'
-      //   break
-      // case 'Up':
-      //   shapey ++
-      //   shape.style.top = shapey + 'px'
-      //   break
-      // case 'Down':
-      //   shapey --
-      //   shape.style.top = shapey + 'px'
-      //   break
-
-    }
+  function move(){
+    shapex ++
+    shape.style.left = shapex + 'px'
   }
-
-  setInterval(whichmove, 150)
+  setInterval(move, 60)
 
   const shape2 = document.querySelector('.shape2')
   let shape2x = 0
-  // let shape2y = 0
-
-
-  function whichmove2(){
-    const ShapeAnimation = ['Right', 'Left', 'Left','Left', 'Left', 'Up', 'Down']
-    const which = ShapeAnimation[Math.floor(Math.random() * ShapeAnimation.length)]
-    // console.log('b at ', shape2x)
-
-
-    switch (which){
-      // case 'Right':
-      //   shape2x ++
-      //   shape2.style.left = shape2x + 'px'
-      //   break
-      case 'Left':
-        shape2x --
-        shape2.style.left = shape2x + 'px'
-        break
-      // case 'Up':
-      //   shape2y ++
-      //   shape2.style.top = shape2y + 'px'
-      //   break
-      // case 'Down':
-      //   shape2y --
-      //   shape2.style.top = shape2y + 'px'
-      //   break
-
-    }
+  function move2(){
+    shape2x --
+    shape2.style.left = shape2x + 'px'
   }
+  setInterval(move2, 60)
 
-  setInterval(whichmove2, 150)
+  const shape3 = document.querySelector('.shape3')
+  let shape3x = 0
+  function move3(){
+    shape3x ++
+    shape3.style.left = shape3x + 'px'
+  }
+  setInterval(move3, 60)
+
+  const shape4 = document.querySelector('.shape4')
+  let shape4x = 0
+  function move4(){
+    shape4x --
+    shape4.style.left = shape4x + 'px'
+  }
+  setInterval(move4, 60)
 
 })
