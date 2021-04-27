@@ -3,11 +3,11 @@ font-family: 'Reem Kufi', sans-serif;
 font-family: 'Abel', sans-serif; */
 
 a {
-  color: rgb(238, 255, 0);
+  color:#4a4a4a;;
 }
 
 a:hover {
-  color: DarkTurquoise ;
+  color: rgba(65,105,225) ;
 }
 
 p {
@@ -37,7 +37,7 @@ h3 {
 .nav-item{
   font-size: 30px;
   color: LightYellow;
-  width: 33.3%;
+  width: 15%;
   float: left;
   font-weight: bold;
 }
@@ -47,7 +47,8 @@ h3 {
 }
 
 .hero-one{
-  background-image: url(../resources/norwayhouse.jpg);
+  /* background-image: url(../resources/norwayhouse.jpg); */
+  background-color: LightYellow;
   background-size: cover;
   background-position: center;
 }
@@ -62,7 +63,7 @@ h3 {
 }
 
 .hero-four{
-  background-image: url(../resources/Iceland.jpg);
+  /* background-image: url(../resources/Iceland.jpg); */
   background-size: cover;
   background-position: center;
 }
@@ -92,8 +93,8 @@ small {
 
 .title{
   font-family: 'Abel', sans-serif;
-  font-size: 80px;
-  color: LightYellow;
+  font-size: 60px;
+  color: rgba(65,105,225);
 }
 .subtitle{
   font-family: 'Abel', sans-serif;
@@ -147,7 +148,7 @@ small {
   margin-left: 100%;
   margin-bottom: 50px;
 }
-.shape5{
+/* .shape5{
   height:500px;
   width:2px;
   background-color: forestgreen;
@@ -156,8 +157,8 @@ small {
   padding: 0px;
   z-index: 0;
   margin-left: 0.1px;
-}
-.shape6{
+} */
+/* .shape6{
   height:500px;
   width:2px;
   background-color: indigo;
@@ -166,7 +167,7 @@ small {
   padding: 0px;
   z-index: 0;
   margin-left: 0.1px;
-}
+} */
 
 
 /* ///////////////////////////////////////////////////////////////// */
