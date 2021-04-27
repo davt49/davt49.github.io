@@ -148,26 +148,7 @@ small {
   margin-left: 100%;
   margin-bottom: 50px;
 }
-/* .shape5{
-  height:500px;
-  width:2px;
-  background-color: forestgreen;
-  position: relative;
-  margin-top: -90%;
-  padding: 0px;
-  z-index: 0;
-  margin-left: 0.1px;
-} */
-/* .shape6{
-  height:500px;
-  width:2px;
-  background-color: indigo;
-  position: relative;
-  margin-bottom: -90%;
-  padding: 0px;
-  z-index: 0;
-  margin-left: 0.1px;
-} */
+
 
 
 /* ///////////////////////////////////////////////////////////////// */
@@ -228,7 +209,7 @@ small {
   .title{
     font-family: 'Abel', sans-serif;
     font-size: 40px;
-    color: LightYellow;
+    color: rgba(65,105,225);
   }
   .subtitle{
     font-family: 'Abel', sans-serif;
