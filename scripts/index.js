@@ -1,53 +1,70 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-  console.log('Hello World, working on some shapes')
+  const nav = document.getElementById('navbar__list');
+  const sections = document.querySelectorAll("section")
+  let navItems = ["Main","About","Projects"];
 
-  const shape = document.querySelector('.shape')
-  let shapex = 0
-  function move(){
-    shapex ++
-    shape.style.left = shapex + 'px'
-  }
-  setInterval(move, 60)
+  function createNavs() {
+    for (let i = 0; i < navItems.length; i++) {
+      let itemName = navItems[i];
+      let li = document.createElement('li');
+      let anchor = document.createElement('a');
+      li.classList.add("nav-link" + (i + 1));
+      anchor.innerHTML = itemName;
+      anchor.href = "#section" + (i + 1);
+      anchor.classList.add("anchor" + (i + 1));
+      anchor.addEventListener("click", (event) => {
+        event.preventDefault();
+        sections[i].scrollIntoView({ behavior: "smooth" });
+      });
+      li.appendChild(anchor);
+      nav.appendChild(li);
 
-  const shape2 = document.querySelector('.shape2')
-  let shape2x = 0
-  function move2(){
-    shape2x --
-    shape2.style.left = shape2x + 'px'
+    }
   }
-  setInterval(move2, 60)
+  createNavs()
 
-  const shape3 = document.querySelector('.shape3')
-  let shape3x = 0
-  function move3(){
-    shape3x ++
-    shape3.style.left = shape3x + 'px'
-  }
-  setInterval(move3, 60)
+  const one = document.getElementById('section1');
+  const two = document.getElementById('section2');
+  const three = document.getElementById('section3');
+  const navOne = document.querySelector('.nav-link1');
+  const navTwo = document.querySelector('.nav-link2');
+  const navThree = document.querySelector('.nav-link3');
 
-  const shape4 = document.querySelector('.shape4')
-  let shape4x = 0
-  function move4(){
-    shape4x --
-    shape4.style.left = shape4x + 'px'
-  }
-  setInterval(move4, 60)
+  window.addEventListener('scroll', function () {
 
-  const shape5 = document.querySelector('.shape5')
-  let shape5y = 0
-  function move5(){
-    shape5y ++
-    shape5.style.top = shape5y + 'px'
-  }
-  setInterval(move5, 60)
+    if (one.getBoundingClientRect().top < window.innerHeight - 500) {
+      navTwo.classList.remove("active");
+      navThree.classList.remove("active");
+      navOne.classList.add("active");
 
-  const shape6 = document.querySelector('.shape6')
-  let shape6y = 0
-  function move6(){
-    shape6y --
-    shape6.style.top = shape6y + 'px'
-  }
-  setInterval(move6, 60)
+      two.classList.remove("your-active-class");
+      three.classList.remove("your-active-class");
+      one.classList.add("your-active-class");
+
+    }
+    if (two.getBoundingClientRect().top < window.innerHeight - 500) {
+      navOne.classList.remove("active");
+      navThree.classList.remove("active");
+      navTwo.classList.add("active");
+
+      one.classList.remove("your-active-class");
+      three.classList.remove("your-active-class");
+      two.classList.add("your-active-class");
+    }
+    if (three.getBoundingClientRect().top < window.innerHeight - 500) {
+      navOne.classList.remove("active");
+      navTwo.classList.remove("active");
+      navThree.classList.add("active");
+
+      two.classList.remove("your-active-class");
+      one.classList.remove("your-active-class");
+      three.classList.add("your-active-class");
+
+    }
+
+  });
+
+  
 
 })
